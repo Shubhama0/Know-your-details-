@@ -1,3 +1,6 @@
+//run in C++ Compiler 
+
+
 #include <iostream>
 #include <string>
 using namespace std;
