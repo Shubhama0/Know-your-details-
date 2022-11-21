@@ -1,48 +1,44 @@
 //run in C++ Compiler 
-
-
 #include <iostream>
 #include <string>
 using namespace std;
 
 int main(){
 int i,j,k;
-cout<<" 👉🏻Enter Your Roll No."<<"\n";
+cout<<" 👉🏻  Enter Your Roll No: ";
 string s;
 cin>>s;
-cout<<"👉🏻Enter Your First Name."<<"\n";
+cout<<"👉🏻 Enter Your First Name: ";
 string fn;
 cin>>fn;
-cout<<"👉🏻Enter Your Last Name."<<"\n";
+cout<<"👉🏻 Enter Your Last Name: ";
 string ln;
 cin>>ln;
-cout<<"\n"<<"----------------------------"<<"\n"<<"\n";		
 cout<<" \n" <<"\n";
-cout<<"Your Details are🤓"<<" \n"<<"\n" ;
-cout<<"Collage- "  << " MMMUT, GKP " <<"\n";
+cout<<"        Your Details are🤓"<<" \n"<<"\n" ;
+cout<<"College Name: - "  << " Madan Mohan Malaviya University Of Technology, Gorakhpur, India" <<"\n";
 cout<<"Name  -  " << fn<< " " <<ln <<"\n";
-cout<<"Roll No  -   " << s <<"\n";
-cout<<"Enrollment Year  - "<<s[0]<<s[1]<<s[2]<<s[3];
+cout<<"Roll No:  -   " << s <<"\n";
+cout<<"Enrollment Year: - "<<s[0]<<s[1]<<s[2]<<s[3];
 cout<<"\n";
 if (s[5]=='1')
-cout<<"Branch -  "<<"   " <<"CE"<<"\n ";
+cout<<"Branch -  "<<"   " <<"CE"<<"\n";
 if (s[5]=='2')
-cout<<"Branch  -   "<<" " <<"CSE"<<"\n ";
+cout<<"Branch  -   "<<" " <<"CSE"<<"\n";
 if (s[5]=='3')
-cout<<"Branch  -  "<<" " <<"EE"<<"\n ";
+cout<<"Branch  -  "<<" " <<"EE"<<"\n";
 if (s[5]=='4')
-cout<<"Branch  -   "<<" " <<"ECE"<<"\n ";
+cout<<"Branch  -   "<<" " <<"ECE"<<"\n";
 if (s[5]=='5')
-cout<<"Branch  -   "<<" " <<"ME"<<"\n ";
+cout<<"Branch  -   "<<" " <<"ME"<<"\n";
 if (s[5]=='6')
-cout<<"Branch  -  "<<" " <<"CH"<<"\n ";
+cout<<"Branch  -  "<<" " <<"CH"<<"\n";
 if (s[5]=='7')
-cout<<"Branch  -  "<<" " <<"IT"<<"\n ";
+cout<<"Branch  -  "<<" " <<"IT"<<"\n";
 if (s[7]=='0')
-cout<<"Section  -   "<<" " <<"A"<<"\n ";
+cout<<"Section  -  "<<" " <<"A"<<"\n";
 if (s[7]=='1') 
 cout<<"Section  -  "<<" " <<"B"<<"\n ";
-
 cout<<"\n" <<"👌👍";
 	
 }
